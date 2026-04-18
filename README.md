@@ -13,9 +13,14 @@ The solver was tested on standard VRP benchmark instances (e.g., E-n51-k5, c101)
 - Execution Speed: Processes instances with up to 100+ nodes in seconds.
 
 ### Experimental Results
-Instance,Nodes,Routes,CW Distance,TS Distance,Improvement %,Time (s)
-C1_2_1.TXT,200,24,"6,078.75","3,458.73",43.10%,1.4s
-E-n51-k5.txt,50,7,901.62,595.20,33.99%,0.3s
-C1_4_1.TXT,400,64,"15,729.92","11,967.88",23.92%,1.7s
-c101.txt,100,11,"1,181.14",979.47,17.07%,0.9s
-C1_10_1.TXT,1000,173,"85,144.91","79,646.51",6.46%,2.5s
+
+The solver was evaluated across various standard VRP benchmark instances. The results highlight the performance gains achieved by the Tabu Search metaheuristic compared to the Clarke-Wright construction baseline.
+
+| Instance | Nodes | Routes | CW Distance | TS Distance | Improvement % | Time (s) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **C1_10_1.TXT** | 1000 | 173 | 85,144.91 | 79,646.51 | **6.46%** | 2.5s |
+| **C1_4_1.TXT** | 400 | 64 | 15,729.92 | 11,967.88 | **23.92%** | 1.7s |
+| **C1_2_1.TXT** | 200 | 24 | 6,078.75 | 3,458.73 | **43.10%** | 1.4s |
+| **c101.txt** | 100 | 11 | 1,181.14 | 979.47 | **17.07%** | 0.9s |
+| **E-n51-k5.txt** | 50 | 7 | 901.62 | 595.20 | **33.99%** | 0.3s |
+| **E-n13-k4.txt** | 12 | 4 | 322.00 | 302.00 | **6.21%** | 0.0s |
