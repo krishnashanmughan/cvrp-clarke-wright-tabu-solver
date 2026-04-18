@@ -9,5 +9,5 @@ This repository contains a high-performance Python implementation for solving th
 - Vehicle Penalty: Integrated logic to prioritize reducing the total number of vehicles used.
 ### Performance Benchmark
 The solver was tested on standard VRP benchmark instances (e.g., E-n51-k5, c101).
--- Average Improvement: 15% – 43% reduction in distance compared to the initial Clarke-Wright solution.
+- Average Improvement: 15% – 43% reduction in distance compared to the initial Clarke-Wright solution.
 - Execution Speed: Processes instances with up to 100+ nodes in seconds.
